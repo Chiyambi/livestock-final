@@ -1,73 +1,61 @@
-# Welcome to your Lovable project
+🐄 Livestock Health Tracking Application
 
-## Project info
+A mobile and web-based application designed to help farmers and livestock managers monitor and track the health of their animals. The system focuses on feeding schedules, vaccination alerts, nutrition tracking, and health reports to ensure better livestock management.
 
-**URL**: https://lovable.dev/projects/8c843d03-de52-49ad-8f40-5939ec6ad0e4
+📌 Features
 
-## How can I edit this code?
+👤 User Authentication – Secure login and account management.
 
-There are several ways of editing your application.
+🏠 Dashboard – Overview of animal health and activities.
 
-**Use Lovable**
+🐑 Animal Records – Add, edit, and manage livestock details.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8c843d03-de52-49ad-8f40-5939ec6ad0e4) and start prompting.
+🥗 Feeding Schedules – Plan and track daily/weekly feeding routines.
 
-Changes made via Lovable will be committed automatically to this repo.
+💉 Vaccination Alerts – Get reminders for upcoming vaccinations.
 
-**Use your preferred IDE**
+📊 Nutrition Reports – Monitor growth and feeding performance.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+⚙️ Settings – Customize notifications and app preferences.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🛠️ Tech Stack
 
-Follow these steps:
+Frontend: React (Web), Flutter (Mobile)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Backend: Node.js / Firebase (depending on setup)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Database: Firebase Firestore / MySQL (if connected to XAMPP)
 
-# Step 3: Install the necessary dependencies.
-npm i
+Version Control: Git & GitHub
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+🚀 Installation
+1. Clone the Repository
+git clone https://github.com/Chiyambi/livestock-final.git
+cd livestock-final
+
+2. Install Dependencies
+
+For React (web app):
+
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+For Flutter (mobile app):
 
-**Use GitHub Codespaces**
+flutter pub get
+flutter run
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+📷 Screenshots (Optional)
 
-## What technologies are used for this project?
+Add screenshots or mockups of your app here.
 
-This project is built with:
+📖 Project Background
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+This project was developed as part of a Final Year Research Project at Malawi University of Science and Technology. It aims to provide digital solutions for farmers in Malawi and beyond, addressing challenges in livestock health management.
 
-## How can I deploy this project?
+👥 Contributors
 
-Simply open [Lovable](https://lovable.dev/projects/8c843d03-de52-49ad-8f40-5939ec6ad0e4) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Chiyambi Chimamba (Lead Developer & Researcher)
+Supervisor: Mr. Allan Chongwe
+Submitted to: Dr. B. Kankuz
